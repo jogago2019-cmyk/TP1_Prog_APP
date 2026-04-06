@@ -1,4 +1,5 @@
 # TRABAJO PRÁCTICO Nº 1
+
 ## Fundamentos y Ecosistemas del Desarrollo Móvil
 
 ### Realizar el siguiente trabajo práctico en el repositorio de github asignado para la actividad. Se deberán contestar las preguntas y subirlas como README.md
@@ -11,6 +12,4 @@
 
 4 - ¿Qué ventaja principal ofrece un Framework Multiplataforma (como Flutter o React Native) frente al desarrollo nativo?
 
-5 - En el contexto de la arquitectura móvil, ¿cuál es la función de una API REST importa
-
-el sistema operativo desde el cuál se consuma la API o es indistinto?
+5 - En el contexto de la arquitectura móvil, ¿cuál es la función de una API REST importa el sistema operativo desde el cuál se consuma la API o es indistinto?
