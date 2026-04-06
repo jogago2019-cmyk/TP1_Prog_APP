@@ -23,4 +23,5 @@ siguiendo este formato:
 | Rendimiento | Optimizado al máximo | Muy alto (casi nativo) |
 | Costo/Tiempo | Mayor (dos bases de código) | Menor (una base de código) |
 | Acceso a Hardware | Total e inmediato | Depende de plugins/puentes |
+
 Nota: No olvidar los guiones --- en la segunda línea para separar el encabezado del contenido. Una buena visualización técnica suma puntos en la calidad de entrega.
