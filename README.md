@@ -25,3 +25,14 @@ siguiendo este formato:
 | Acceso a Hardware | Total e inmediato | Depende de plugins/puentes |
 
 Nota: No olvidar los guiones --- en la segunda línea para separar el encabezado del contenido. Una buena visualización técnica suma puntos en la calidad de entrega.
+
+Desarrollo
+
+2)- 
+
+| Criterio                    | IOS |               Android |
+|--------------|--------------|--------------|
+| Lenguajes Principales  |Swift y Objective-C. |   Kotlin y Java.            |
+|Entorno de Desarrol(IDE)|     Xcode (exclusivo de macOS)     |    Android Studio (multiplataforma).       
+|Arquitectura del SO     |  Basado en XNU (kernel Darwin), cerrado y optimizado para hardware Apple.   | Basado en Linux, modular y abierto con mayor fragmentación de dispositivos.|
+|Acceso a Hardware | Acceso completo y optimizado a APIs nativas, pero con restricciones estrictas de seguridad y sandboxing.|
