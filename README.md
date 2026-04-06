@@ -1,8 +1,7 @@
 # TRABAJO PRÁCTICO Nº 1
 ## Fundamentos y Ecosistemas del Desarrollo Móvil
 
-### Realizar el siguiente trabajo práctico en el repositorio de github asignado para la
-### actividad. Se deberán contestar las preguntas y subirlas como README.md
+### Realizar el siguiente trabajo práctico en el repositorio de github asignado para la actividad. Se deberán contestar las preguntas y subirlas como README.md
 
 1 - ¿Cuáles son los principales sistemas operativos para dispositivos móviles en la actualidad?
 
