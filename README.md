@@ -35,4 +35,7 @@ Desarrollo
 | Lenguajes Principales  |Swift y Objective-C. |   Kotlin y Java.            |
 |Entorno de Desarrol(IDE)|     Xcode (exclusivo de macOS)     |    Android Studio (multiplataforma).       
 |Arquitectura del SO     |  Basado en XNU (kernel Darwin), cerrado y optimizado para hardware Apple.   | Basado en Linux, modular y abierto con mayor fragmentación de dispositivos.|
-|Acceso a Hardware | Acceso completo y optimizado a APIs nativas, pero con restricciones estrictas de seguridad y sandboxing.|
+|Acceso a Hardware | Acceso completo y optimizado a APIs nativas, pero con restricciones estrictas de seguridad y sandboxing.|Acceso amplio y flexible a funcionalidades del sistema y archivos,permitiendo mayor personalizacion y root.
+|Gestion de memoria|Uso de ARC(Automatic Reference Counting)para automatizacion y seguridad.|Gestion de memoria explicita o automatica (Garbage o Collection),dependiendo del lenguaje.|
+|Distribucucion y Actualizacion|Control cetralizado en App Store.Actualizaciones simultaneamente para todos los dispositivos compatibles.|Distribucion abierta (tiendas y APK),actualizaciones escalonadas dependiente del fabricante del dispositivo.|
+|Diseño de interfaz (UI/UX)|Sigue las Human Interface Guidelines (HIG)con componentes como botones de llamada a la accion y selectores de fechas tipo rodillo.|Sigue Material Design con botones planos/elevados,textos en mayusculas y botones de acciones flotante(FAB)|
