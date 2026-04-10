@@ -28,6 +28,19 @@ Nota: No olvidar los guiones --- en la segunda línea para separar el encabezado
 
 Desarrollo
 
+1)- 
+#### os principales sistemas operativos para dispositivos móviles en la actualidad
+
+La mayoría de los teléfonos inteligentes funcionan con unos pocos sistemas operativos principales para dispositivos móviles, incluidos Apple iOS, Google Android.
+| Sistema Operativo | Caracteristicas | Desarrollo Nativo | Multiplataforma (Flutter) |Multiplataforma (Reac Native) |
+| :---: | :--- | :--- | :--- | :--- |
+| Andorid | 1. Código Abierto. (Open Source). | 1. Entorno Android studio | 1. Lenguaje Flutter/Dark + (Java y kotlin) | 1. Componentes Nativos Reales |
+|         | 2. Multitarea Real. | 2. Lenguajes: Java/kotlin | 2. Renderizado Propio (Skia/Impeller) | 2. Basado en React y JavaScript |
+|         | 3. Ecosistema Google Play. | 3. Ventaja clave: Acceso inmediato a las últimas funciones de Android en cuanto salen al mercado | 3. Compilación en Código Nativo | 3.Fast Refresh (Recarga instantánea) |
+| IOS | 1. Codigo Cerrado         | 1. Lenguajes: Swift | 1. Rendimiento en iOS: Fluido  | 1. Arquitectura "Fabric" |
+|     | 2. Seguridad y Privacidad | 2. (IDE): Xcode | 2. Compilación: a lenguaje binario | 2. Uso de "Hermes" optimizado |
+|     | 3. App Store              | 3. Ventaja clave: Apple es muy estricto con la experiencia de usuario (UX). El desarrollo nativo te da acceso total a tecnologías exclusivas como FaceID, Apple Pay, y los últimos avances en realidad aumentada con ARKit. | 3. Renderizado: Motor Impeller | 3. CocoaPods Integrado |
+
 2)- 
 
 | Criterio                    | IOS |               Android |
@@ -42,7 +55,7 @@ Desarrollo
 
 
 
-3).
+3)-
  #### .¿A qué nos referimos cuando hablamos de desarrollo nativo en programación de APP móviles?
 
 #### El desarrollo móvil nativo:
@@ -77,3 +90,17 @@ Además, facilita el trabajo en equipo y permite lanzar aplicaciones en menos ti
 | Mantenimiento | Más complejo | Más simple |
 | Rendimiento | Máximo | Muy alto (casi nativo) |
 | Experiencia de usuario | Mejor integración | Buena y uniforme |
+
+
+5)-
+#### En Contexto de la arquitectura movil
+la función principal de una API REST en la arquitectura móvil es actuar como un puente estandarizado que permite a las aplicaciones acceder, manipular y sincronizar datos y funcionalidades de un servidor remoto de forma segura y eficiente, independientemente de la complejidad interna del sistema. 
+No importa el sistema operativo desde el cual se consuma la API; el protocolo es indistinto entre plataformas, iOS, Android, etc., ya que la arquitectura REST se basa en el estándar HTTP y en el intercambio de datos, generalmente JSON o XML, que cualquier dispositivo capaz de hacer solicitudes web puede interpretar. 
+
+### Las funciónes y Principios Clave son;
+### Separación de responsabilidades: 
+Permite que el desarrollo del cliente, osea la app móvil, y del servidor osea el backend sea independiente, facilitando la evolución de cada parte sin afectar a la otra. 
+### Interoperabilidad: 
+Al utilizar métodos HTTP universales como GET, POST, PUT, DELETE, cualquier aplicación móvil, sin importar su lenguaje de programación o sistema operativo, puede comunicarse con el servicio. 
+### Gestión de recursos: 
+Funciona exponiendo recursos específicos como usuarios, productos o notificaciones a través de URLs únicas, permitiendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) de manera predecible.
